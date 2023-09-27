@@ -325,7 +325,7 @@ nav {
   gap: 1rem;
 }
 
-.logo-title {
+.skills-card-name {
   font-family: var(--font-mono);
   color: var(--textLightBlue);
   font-size: 1.3rem;
