@@ -21,3 +21,23 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 function resume() {
   window.open("./Ajeet-Pawar-Resume.pdf", "_blank");
 }
+
+GitHubCalendar(".calendar", "audacity07", {
+  responsive: true,
+  global_stats: true,
+  tooltips: true,
+});
+
+// to handle mobile navigation
+const hamburger = document.querySelector(".hamburger");
+const bar1 = document.querySelector(".hamburger__bar1");
+const bar2 = document.querySelector(".hamburger__bar2");
+const bar3 = document.querySelector(".hamburger__bar3");
+const mobileNav = document.querySelector(".mobile-nav");
+
+hamburger.addEventListener("click", function () {
+  bar1.classList.toggle("animateBar1");
+  bar2.classList.toggle("animateBar2");
+  bar3.classList.toggle("animateBar3");
+  mobileNav.classList.toggle("openDrawer");
+});

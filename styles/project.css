@@ -1,0 +1,128 @@
+/* || PROJECT SECTION */
+.project__inner-container {
+  /* set max-width to 1084px */
+  max-width: min(80%, var(--width-lg));
+  padding: var(--padding-lg) 0;
+  margin: auto;
+}
+
+.project__card:nth-child(2) {
+  margin-top: 5rem;
+}
+
+.project__card {
+  margin-top: 10rem;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.project__image-container {
+  /* what is happening here????? */
+  width: 350rem;
+}
+
+.project__image-container img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+/* for left image cards */
+.project__container-1 {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* for right image cards */
+.project__container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.project__container-1 p,
+.project__container-2 p {
+  font-family: var(--font-mono);
+  color: var(--fc-green);
+  font-size: 1.3rem;
+}
+
+.project__container-1 h3,
+.project__container-2 h3 {
+  font-family: var(--font-sans);
+  color: var(--fc-blue-shade1);
+  font-size: 2.8rem;
+}
+
+.project__description p {
+  font-family: var(--font-sans);
+  color: var(--fc-blue-shade2);
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.project__tech-stack-1 {
+  display: flex;
+  justify-content: right;
+}
+
+.project__tech-stack-2 {
+  display: flex;
+  justify-content: left;
+}
+
+.project__tech-stack-1 p {
+  font-family: var(--font-mono);
+  color: var(--fc-green);
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  background-color: #193756;
+  font-weight: 100;
+  margin-left: 1.6rem;
+}
+.project__tech-stack-2 p {
+  font-family: var(--font-mono);
+  color: var(--fc-green);
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  background-color: #193756;
+  font-weight: 100;
+  margin-right: 1.6rem;
+}
+
+.card-details-tech-icons-1 svg {
+  margin-left: 1.6rem;
+}
+
+.card-details-tech-icons-2 svg {
+  margin-right: 1.6rem;
+}
+
+.github {
+  height: 2rem;
+  width: 2rem;
+  color: var(--fc-blue-shade1);
+}
+
+.external-link {
+  height: 2.2rem;
+  width: 2.2rem;
+  color: var(--fc-blue-shade1);
+}
+
+.github:hover {
+  color: var(--fc-green);
+  cursor: pointer;
+}
+
+.external-link:hover {
+  color: var(--fc-green);
+  cursor: pointer;
+}
+
+/* media query */
+@media only screen and (max-width: 1047px) {
+}

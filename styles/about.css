@@ -1,0 +1,63 @@
+/* ABOUT SECTION */
+.about__inner-container {
+  /* width: 80%; */
+  /* set max-width to 1084px */
+  max-width: min(80%, var(--width-lg));
+  margin: auto;
+  padding: var(--padding-lg) 0;
+}
+
+.about__flex-container {
+  display: flex;
+}
+
+.about__description {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.8rem;
+  font-family: var(--font-sans);
+}
+
+.about__description p {
+  color: var(--fc-blue-shade2);
+  font-family: var(--font-sans);
+}
+
+.about__skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+}
+
+.about__skills-grid p {
+  font-family: var(--font-mono);
+  font-size: 1.3rem;
+}
+
+.about__skills-grid i {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+
+.about__image-container {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.about__image {
+  width: 30rem;
+  margin: auto;
+}
+
+.about__image img {
+  border-radius: 0.5rem;
+}
+
+/* media query */
+@media only screen and (max-width: 1047px) {
+}

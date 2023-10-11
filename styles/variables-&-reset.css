@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Fira+Mono:wght@400;500&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+/* || VARIABLES */
+:root {
+  --bg-navy: #081426; /* bg = background color */
+  --fc-green: #60ffd9; /* fc = font color */
+  --bg-green: #009076;
+  --fc-blue-shade1: #b0cdf1; /* for heading */
+  --fc-blue-shade2: #a1b5cd; /* for paragraphs */
+  --fc-gray: #a9a297;
+  --font-sans-hero-section: "Inter", sans-serif;
+  --font-sans: "DM Sans", sans-serif;
+  --font-mono: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --padding-sm: 6rem;
+  --padding-md: 8rem;
+  --padding-lg: 8rem;
+  --padding-xl: 10rem;
+  --width-lg: 1084px;
+  --margin-lg: 11.9rem;
+}
+
+/* || RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-navy);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* || GENERAL */
+
+.general__span {
+  color: var(--fc-green);
+  font-family: var(--font-mono);
+  margin-right: 0.5rem;
+  font-size: 2.8rem;
+}
+
+.general__h2 {
+  color: var(--fc-blue-shade1);
+  font-family: var(--font-sans);
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+#resume-button-1 a,
+#resume-button-2 a {
+  text-decoration: none;
+  color: var(--fc-green);
+}
+
+#resume-button-2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  padding: 1.5rem 2.8rem;
+}
+
+/* || SCROLL BAR CODE */
+::-webkit-scrollbar-track {
+  background-color: var(--bg-navy);
+}
+
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a455a;
+  border: 0.3rem solid #83796b;
+  border-radius: 1rem;
+}
+
+body {
+  scroll-padding-top: 10rem; /* Adjust the value based on your navbar height */
+}
+
+/* end of code for scroll bar */

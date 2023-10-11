@@ -1,0 +1,183 @@
+/* || NAVBAR */
+nav {
+  font-family: var(--font-mono);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav__inner-container {
+  color: var(--fc-green);
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 3rem 0;
+  /* position: fixed;
+  left: 5%;
+  top: 0%; */
+}
+
+.nav__logo {
+  color: var(--fc-green);
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  letter-spacing: 0.07rem;
+}
+
+.nav__section-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.4rem;
+}
+
+.nav__reference-container {
+  color: var(--fc-blue-shade1);
+}
+
+.nav__reference {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__reference:hover {
+  color: var(--fc-green);
+}
+
+.nav__span {
+  color: var(--fc-green);
+  padding-right: 0.5rem;
+}
+
+.button {
+  border: 0.1rem solid var(--bg-green);
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.6rem;
+  background: none;
+  font: inherit;
+  color: var(--fc-green);
+  cursor: pointer;
+  transition: transform 0.15s;
+  font-family: var(--font-mono);
+  font-size: 1.3rem;
+}
+
+.button:hover {
+  transform: translate3d(0, 0.2rem, 0);
+}
+
+/* || MOBILE NAV */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  display: none;
+  z-index: 10;
+  padding-right: 2rem;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburger__bar1,
+.hamburger__bar2,
+.hamburger__bar3 {
+  background-color: white;
+  width: 30px;
+  height: 4px;
+  border-radius: 10px;
+}
+
+.animateBar1 {
+  animation: flipBar1 0.4s;
+  /* this is used to hold the last state */
+  /* and not revert bakc to the original state */
+  animation-fill-mode: forwards;
+}
+
+.animateBar2 {
+  animation: fadeBar2 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.animateBar3 {
+  animation: flipBar3 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes flipBar1 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg) translate(3px, 10px);
+  }
+}
+
+@keyframes fadeBar2 {
+  from {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  to {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+}
+
+@keyframes flipBar3 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(-45deg) translate(3px, -10px);
+  }
+}
+
+.mobile-nav {
+  font-family: var(--font-mono);
+  margin-top: 100px;
+  width: 50vw;
+  background-color: var(--bg-navy);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: -50vw;
+  transition: transform 0.3s;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.openDrawer {
+  transform: translateX(-50vw);
+}
+
+.mobile-nav__reference {
+  margin: 16px 0;
+}
+
+.mobile-nav__reference {
+  display: flex;
+  flex-direction: column;
+}
+
+/* media query */
+@media only screen and (max-width: 1047px) {
+  .nav__section-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
