@@ -13,12 +13,22 @@
   --font-sans-hero-section: "Inter", sans-serif;
   --font-sans: "DM Sans", sans-serif;
   --font-mono: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --fs-main-heading: clamp(4rem, 7vw, 7rem); /* fs = font size*/
+  --fs-numbered-heading: clamp(2.6rem, 5vw, 3.2rem);
   --padding-sm: 6rem;
   --padding-md: 8rem;
   --padding-lg: 8rem;
   --padding-xl: 10rem;
   --width-lg: 1084px;
   --margin-lg: 11.9rem;
+
+  /* new combo test */
+  /* --bg-navy: #000610;
+  --fc-green: #35d7ef;
+  --fc-gray: #afa99e;
+  --fc-blue-shade1: #e8e6e3;
+  --fc-blue-shade2: #afa99e;
+  --font-sans: "Inter", sans-serif; */
 }
 
 /* || RESET */
@@ -48,7 +58,7 @@ html {
 .general__h2 {
   color: var(--fc-blue-shade1);
   font-family: var(--font-sans);
-  font-size: 3.2rem;
+  font-size: var(--fs-numbered-heading);
   margin-bottom: 4rem;
 }
 

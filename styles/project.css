@@ -126,3 +126,47 @@
 /* media query */
 @media only screen and (max-width: 1047px) {
 }
+
+@media only screen and (max-width: 768px) {
+  .project__card {
+    flex-direction: column;
+  }
+
+  .project__image-container {
+    width: 100%;
+  }
+
+  .project__container-1 {
+    gap: 1rem;
+  }
+
+  .project__container-2 {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  :root {
+    --padding-lg: 2.5rem;
+  }
+
+  /* .project__container-1 p {
+    text-align: right;
+  }
+
+  .project__container-2 p {
+    text-align: left;
+  } */
+
+  .project__tech-stack-1,
+  .project__tech-stack-2 {
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  .project__tech-stack-1 p,
+  .project__tech-stack-2 p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+}

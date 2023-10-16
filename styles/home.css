@@ -29,23 +29,34 @@
 }
 
 .home__intro h2 {
-  font-size: 6rem;
+  font-size: var(--fs-main-heading);
   color: var(--fc-blue-shade2);
 }
 
 .home__intro h3 {
-  font-size: 6rem;
+  font-size: var(--fs-main-heading);
   color: var(--fc-gray);
 }
 
 .home__intro p {
   font-size: 1.7rem;
   color: var(--fc-gray);
-  width: 60%;
+  /* width: 60%; */
+  max-width: 63rem;
   font-family: var(--font-sans);
   line-height: 1.5;
 }
 
 /* media query */
 @media only screen and (max-width: 1047px) {
+}
+
+@media only screen and (max-width: 480px) {
+  :root {
+    --padding-lg: 2.5rem;
+  }
+
+  .home__intro p {
+    font-size: 1.6rem;
+  }
 }
