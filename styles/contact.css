@@ -88,9 +88,9 @@
 }
 
 @media only screen and (max-width: 480px) {
-  :root {
+  /* :root {
     --padding-lg: 2.5rem;
-  }
+  } */
 
   .contact__inner-container div {
     width: 80%;
