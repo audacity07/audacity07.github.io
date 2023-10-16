@@ -30,12 +30,12 @@
 
 .home__intro h2 {
   font-size: var(--fs-main-heading);
-  color: var(--fc-blue-shade2);
+  color: var(--fc-blue-shade1);
 }
 
 .home__intro h3 {
   font-size: var(--fs-main-heading);
-  color: var(--fc-gray);
+  color: var(--fc-blue-shade2);
 }
 
 .home__intro p {

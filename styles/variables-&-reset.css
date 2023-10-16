@@ -7,8 +7,10 @@
   --bg-navy: #0a192f; /* bg = background color */
   --fc-green: #60ffd9; /* fc = font color */
   --bg-green: #009076;
-  --fc-blue-shade1: #b0cdf1; /* for heading */
-  --fc-blue-shade2: #a1b5cd; /* for paragraphs */
+  /* --fc-blue-shade1: #b0cdf1; for heading */
+  --fc-blue-shade1: #ccd6fc; /* for heading */
+  /* --fc-blue-shade2: #a1b5cd; for paragraphs */
+  --fc-blue-shade2: #8892b0; /* for paragraphs */
   --fc-gray: #a9a297;
   --font-sans-hero-section: "Inter", sans-serif;
   --font-sans: "DM Sans", sans-serif;
