@@ -172,11 +172,11 @@ nav {
 
 /* media query */
 @media only screen and (max-width: 1047px) {
-  /* .nav__section-links {
+  .nav__section-links {
     display: none;
-  } */
+  }
 
-  /* .hamburger {
+  .hamburger {
     display: flex;
-  } */
+  }
 }
