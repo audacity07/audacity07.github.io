@@ -43,7 +43,7 @@
 .phone {
   height: 2rem;
   width: 2rem;
-  fill: var(--fc-blue-shade2);
+  fill: var(--fc-blue-shade1);
 }
 
 .phone:hover {
@@ -53,7 +53,7 @@
 .linkedIn {
   height: 2rem;
   width: 2rem;
-  fill: var(--fc-blue-shade2);
+  fill: var(--fc-blue-shade1);
 }
 
 .linkedIn:hover {
@@ -63,7 +63,7 @@
 .mail {
   height: 2rem;
   width: 2rem;
-  fill: var(--fc-blue-shade2);
+  fill: var(--fc-blue-shade1);
 }
 
 .mail:hover {
@@ -75,7 +75,7 @@
 }
 
 .contact__inner-container div div p {
-  color: var(--fc-blue-shade2);
+  color: var(--fc-blue-shade1);
   font-family: var(--font-mono);
   font-size: 1.5rem;
 }
@@ -89,7 +89,7 @@
 
 @media only screen and (max-width: 480px) {
   :root {
-    --padding-lg: 3rem;
+    --padding-lg: 3.5rem;
   }
 
   .contact__inner-container div {

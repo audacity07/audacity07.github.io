@@ -53,7 +53,7 @@
 
 @media only screen and (max-width: 480px) {
   :root {
-    --padding-lg: 3rem;
+    --padding-lg: 3.5rem;
   }
 
   .home__intro p {
