@@ -170,6 +170,11 @@ nav {
   flex-direction: column;
 }
 
+.button a {
+  text-decoration: none;
+  color: var(--fc-green);
+}
+
 /* media query */
 @media only screen and (max-width: 1047px) {
   .nav__section-links {
