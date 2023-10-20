@@ -1,4 +1,8 @@
 /* || HOME SECTION */
+/* .home {
+  min-height: 100vh;
+} */
+
 .home__inner-container {
   font-family: var(--font-sans-hero-section);
   /* max-width: 80%; */
