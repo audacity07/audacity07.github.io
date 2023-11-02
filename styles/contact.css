@@ -5,6 +5,7 @@
   max-width: 540px;
   /* max-width: min(40%, 540px); */
   padding: var(--padding-lg) 0;
+  margin-bottom: 2rem;
 }
 
 .contact__inner-container h2:nth-child(1) {
@@ -13,7 +14,7 @@
 }
 
 .contact__inner-container h2:nth-child(2) {
-  font-family: var(--font-sans);
+  /* font-family: var(--font-sans); */
   color: var(--fc-blue-shade1);
   /* font-size: 6rem; */
   font-size: clamp(4.5rem, 7vw, 6rem);
@@ -21,8 +22,14 @@
   margin-bottom: 2rem;
 }
 
+.contact-details-card {
+  background-color: var(--black-shade2);
+  border-radius: 2rem;
+  padding: 5rem 5rem;
+}
+
 .contact__inner-container div {
-  width: 65%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -34,30 +41,36 @@
   color: inherit;
 }
 
-.contact__inner-container div div {
+/* .contact__inner-container div div {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+} */
+
+.contact-details-card a div {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  text-align: left;
 }
 
 .phone {
   height: 2rem;
   width: 2rem;
-  fill: var(--fc-blue-shade1);
+  fill: var(--white-shade2);
 }
 
 .phone:hover {
-  fill: var(--fc-green);
+  fill: var(--gray-shade1);
 }
 
 .linkedIn {
   height: 2rem;
   width: 2rem;
-  fill: var(--fc-blue-shade1);
+  fill: var(--white-shade2);
 }
 
 .linkedIn:hover {
-  fill: var(--fc-green);
+  fill: var(--gray-shade1);
 }
 
 .mail {
@@ -67,16 +80,16 @@
 }
 
 .mail:hover {
-  fill: var(--fc-green);
+  fill: var(--gray-shade1);
 }
 
 .contact__inner-container div div p:hover {
-  color: var(--fc-green);
+  color: var(--gray-shade1);
 }
 
 .contact__inner-container div div p {
   color: var(--fc-blue-shade1);
-  font-family: var(--font-mono);
+  /* font-family: var(--font-mono); */
   font-size: 1.5rem;
 }
 
