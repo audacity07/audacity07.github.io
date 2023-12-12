@@ -38,6 +38,10 @@
   border-radius: 1rem;
 }
 
+/* .calendar rect {
+  border-radius: 1rem;
+} */
+
 .stats-card {
   box-shadow: var(--fc-blue-shade2) 0px 0px 0px 1px;
   border-radius: 1rem;

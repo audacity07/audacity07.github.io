@@ -22,11 +22,11 @@ function resume() {
   window.open("./Ajeet-Pawar-Resume.pdf", "_blank");
 }
 
-GitHubCalendar(".calendar", "audacity07", {
-  responsive: true,
-  global_stats: true,
-  tooltips: true,
-});
+// GitHubCalendar(".calendar", "audacity07", {
+//   responsive: true,
+//   global_stats: true,
+//   tooltips: true,
+// });
 
 // to handle mobile navigation
 const hamburger = document.querySelector(".hamburger");
