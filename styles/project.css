@@ -184,6 +184,10 @@
     justify-content: right;
   }
 
+  .card-details-tech-icons-2 {
+    flex-direction: row-reverse;
+  }
+
   .card-details-tech-icons-2 svg {
     /* display: flex;
     flex-direction: row-reverse; */
